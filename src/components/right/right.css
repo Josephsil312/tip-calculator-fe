@@ -20,7 +20,7 @@
 .perperson {
     color: rgb(72, 159, 130);
     position: relative;
-    top: -10px;
+    top: -20px;
 }
 
 .total {
@@ -31,17 +31,18 @@
 .totall {
     position: relative;
     color: white;
+    top:150px;
 }
 
 .perpersonn {
     color: rgb(72, 159, 130);
     position: relative;
-    top: -10px;
+    top: 130px;
 }
 
 .reset {
     margin-top: -100px;
-    bottom: 410px;
+    bottom: 180px;
     position: relative;
     width: 100%;
     height: 50px;
@@ -60,16 +61,16 @@
 .billl1{
     position: relative;
     margin-left:130px;
-    top:-170px;
+    top:-120px;
     color:rgb(8, 174, 119);
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
 .tip111{
     position: relative;
     margin-left:130px;
-    top:-175px;
+    top:35px;
     color:rgb(8, 174, 119);
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }

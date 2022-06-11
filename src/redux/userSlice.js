@@ -5,17 +5,19 @@ export const userSlice = createSlice({
   initialState: {
     bill: 0,
     tip: 0,
-    tipamt:0,
+    btntip:0,
   },
 
   reducers: {
     submit: (state, action) => {
       state.bill = action.payload.bill;
       state.tip = action.payload.tip;
+      state.btntip = action.payload.btntip;
     },
     reset:(state,action) => {
         state.bill = 0;
         state.tip = 0;
+        state.btntip = 0;
     }
   },
 });
