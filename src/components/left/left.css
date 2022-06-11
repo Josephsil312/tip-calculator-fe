@@ -57,6 +57,7 @@ body {
     left: 5px;
     font-family: 'Courier New', Courier, monospace;
     outline: none;
+    cursor: pointer;
 }
 
 .bt2 {
@@ -70,6 +71,7 @@ body {
     left: 20px;
     font-family: 'Courier New', Courier, monospace;
     outline: none;
+    cursor: pointer;
 }
 
 .bt3 {
@@ -83,6 +85,7 @@ body {
     left: 40px;
     font-family: 'Courier New', Courier, monospace;
     outline: none;
+    cursor: pointer;
 }
 
 .bt4 {
@@ -98,6 +101,7 @@ body {
     top: 70px;
     font-family: 'Courier New', Courier, monospace;
     outline: none;
+    cursor: pointer;
 }
 
 .bt5 {
@@ -113,6 +117,7 @@ body {
     top: 70px;
     font-family: 'Courier New', Courier, monospace;
     outline: none;
+    cursor: pointer;
 }
 
 .bt6 {
@@ -145,6 +150,25 @@ body {
     outline: none;
     font-weight: bold;
     font-size: large;
+    cursor: pointer;
+}
+.bt1:hover{
+    border:2px solid rgb(3, 254, 254);
+}
+.bt2:hover{
+    border:2px solid rgb(3, 254, 254);
+}
+.bt3:hover{
+    border:2px solid rgb(3, 254, 254);
+}
+.bt4:hover{
+    border:2px solid rgb(3, 254, 254);
+}
+.bt5:hover{
+    border:2px solid rgb(3, 254, 254);
+}
+.bt7:hover{
+    border:2px solid rgb(3, 254, 254);
 }
 
 .bt6::placeholder {

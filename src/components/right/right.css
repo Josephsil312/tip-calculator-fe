@@ -57,6 +57,10 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: bold;
+    cursor: pointer;
+}
+.reset:hover{
+    border:2px solid rgb(39, 82, 68);
 }
 
 .billl1 {

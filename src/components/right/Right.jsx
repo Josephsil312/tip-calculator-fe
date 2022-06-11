@@ -13,8 +13,9 @@ const Right = () => {
         e.preventDefault();
         dispatch(reset({ bill, tip, btntip }))
     }
-    
+
     return (
+        <>
         <div className="containerr">
             <div className="maincontent">
                 <div className="tip">
@@ -25,11 +26,15 @@ const Right = () => {
                 <div className="total">
                     <h3 className="totall">Total</h3>
                     <h4 className="perpersonn">/ person</h4>
-                    <h4 className='tip111'>${bill + btntip}</h4>
+                    <h4 className='tip111'>${bill + btntip}</h4> 
                 </div>
             </div>
             <button className="reset" onClick={handleReset}>Reset</button>
+            {((tip*0.01) * bill) + bill}
+            
         </div>
+        {((tip*0.01) * bill)}
+        </>
     )
 }
 
