@@ -21,6 +21,7 @@ const Left = () => {
     const handleTip1 = (e) => {
         e.preventDefault();
         setBtntip(bill*0.05)
+        
     }
     const handleTip2 = (e) => {
         e.preventDefault();
