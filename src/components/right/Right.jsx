@@ -8,13 +8,12 @@ const Right = () => {
     let bill = Number(useSelector(state => state.user.bill))
     let tip = Number(useSelector(state => state.user.tip))
     let btntip = Number(useSelector(state => state.user.btntip))
-    
+
     const handleReset = (e) => {
         e.preventDefault();
         dispatch(reset({ bill, tip, btntip }))
     }
-
-
+    
     return (
         <div className="containerr">
             <div className="maincontent">

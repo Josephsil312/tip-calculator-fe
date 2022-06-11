@@ -31,7 +31,7 @@
 .totall {
     position: relative;
     color: white;
-    top:150px;
+    top: 150px;
 }
 
 .perpersonn {
@@ -58,19 +58,21 @@
     font-size: large;
     font-weight: bold;
 }
-.billl1{
+
+.billl1 {
     position: relative;
-    margin-left:130px;
-    top:-120px;
-    color:rgb(8, 174, 119);
+    margin-left: 130px;
+    top: -120px;
+    color: rgb(8, 174, 119);
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
-.tip111{
+
+.tip111 {
     position: relative;
-    margin-left:130px;
-    top:35px;
-    color:rgb(8, 174, 119);
+    margin-left: 130px;
+    top: 35px;
+    color: rgb(8, 174, 119);
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }

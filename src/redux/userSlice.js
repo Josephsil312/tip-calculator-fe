@@ -14,6 +14,7 @@ export const userSlice = createSlice({
       state.tip = action.payload.tip;
       state.btntip = action.payload.btntip;
     },
+    
     reset:(state,action) => {
         state.bill = 0;
         state.tip = 0;

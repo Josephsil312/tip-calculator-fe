@@ -23,18 +23,22 @@ const Left = () => {
         setBtntip(bill*0.05)
         
     }
+
     const handleTip2 = (e) => {
         e.preventDefault();
         setBtntip(bill*0.1)
     }
+
     const handleTip3 = (e) => {
         e.preventDefault();
         setBtntip(bill*0.15)
     }
+
     const handleTip4 = (e) => {
         e.preventDefault();
         setBtntip(bill*0.2)
     }
+    
     const handleTip5 = (e) => {
         e.preventDefault();
         setBtntip(bill*0.25)
