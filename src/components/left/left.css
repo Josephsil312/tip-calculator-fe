@@ -153,22 +153,22 @@ body {
     cursor: pointer;
 }
 .bt1:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 .bt2:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 .bt3:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 .bt4:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 .bt5:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 .bt7:hover{
-    border:2px solid rgb(3, 254, 254);
+    border:3px solid white;
 }
 
 .bt6::placeholder {
