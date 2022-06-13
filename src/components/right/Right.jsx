@@ -5,10 +5,10 @@ import { reset } from '../../redux/userSlice'
 import { useDispatch } from 'react-redux'
 const Right = () => {
     const dispatch = useDispatch()
-    let bill = Number(useSelector(state => state.user.bill))
-    let tip = Number(useSelector(state => state.user.tip))
-    let btntip = Number(useSelector(state => state.user.btntip))
-
+    let bill = Number(useSelector(state => state.user.bill));
+    let tip = (Number(useSelector(state => state.user.tip)).toFixed(2));
+    let btntip = (Number(useSelector(state => state.user.btntip)).toFixed(2));
+    
     const handleReset = (e) => {
         e.preventDefault();
         dispatch(reset({ bill, tip, btntip }))
